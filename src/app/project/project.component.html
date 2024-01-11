@@ -1,0 +1,36 @@
+
+<!-- lyfe cycle hooks -->
+
+        <ul *ngFor="let one of items">
+            <li>{{one}}</li>
+        </ul>
+        <p appHighlight [desiredColor]="style" [color]="style.color">{{matta}}</p>
+
+<!-- lyfe cycle hooks -->
+
+<p>{{date | date:'EEEE'}}</p>
+<p>name: {{title|uppercase}}</p>
+<p>name: {{title1|lowercase}}</p>
+<p>{{ price | currency:'INR' }}</p>
+<p>{{ price | currency:'USD' }}</p>
+<p>{{ price | currency:'EUR' }}</p>
+
+<p>{{ amount | number:'1.2-2' }}</p>
+
+<p>percentage value: {{percentageValue |percent:'1.1-2'}}</p>
+
+<p>percentage value: {{percentageValue | percent:'1.2-2' }}</p>
+
+<p>{{ data | async }}</p>
+
+
+<p>{{jin|json}}</p>
+
+<p>{{"sudais dhskjgbfkjbdg" | pipes}}</p>
+
+
+
+
+<h1>{{guys}}</h1>
+
+
