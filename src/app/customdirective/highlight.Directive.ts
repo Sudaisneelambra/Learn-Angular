@@ -7,8 +7,7 @@ import {
   OnInit,
   HostListener,
 } from '@angular/core';
-
-import { objects } from './object';
+import { objects } from '../object';
 @Directive({
   selector: '[appHighlight]',
 })

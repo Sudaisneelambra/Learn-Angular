@@ -4,16 +4,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProjectComponent } from './project/project.component';
-import { HighlightDirective } from './highlight.Directive';
+import { HighlightDirective } from './customdirective/highlight.Directive';
 import { pipe } from './pipes.pipe';
 import { CustomModule } from './modules/custommodule/custommodule.module';
+import { HostbindingDirective } from './customdirective/hostbinding.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectComponent,
     HighlightDirective,
-    pipe
+    pipe,
+    HostbindingDirective
   ],
   imports: [
     BrowserModule,
