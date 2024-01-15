@@ -22,4 +22,7 @@ export class HostbindingDirective {
     this.color='white'
     this.border='none'
   }
+
+ 
+
 }

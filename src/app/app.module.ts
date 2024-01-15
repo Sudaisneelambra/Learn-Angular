@@ -8,6 +8,7 @@ import { HighlightDirective } from './customdirective/highlight.Directive';
 import { pipe } from './pipes.pipe';
 import { CustomModule } from './modules/custommodule/custommodule.module';
 import { HostbindingDirective } from './customdirective/hostbinding.directive';
+import { SampleDirective } from './customdirective/sample.directive';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HostbindingDirective } from './customdirective/hostbinding.directive';
     ProjectComponent,
     HighlightDirective,
     pipe,
-    HostbindingDirective
+    HostbindingDirective,
+    SampleDirective
   ],
   imports: [
     BrowserModule,

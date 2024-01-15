@@ -109,7 +109,21 @@ export class ProjectComponent
 
  
 
+
+  // defference between hostbinding and property binding
   
 
+  textValue:string="hellow world"
+
+
+
+
+
+// ------------------------------event binding in directive-------
+
+  logvalue(){
+    console.log("input has been focused");
+    
+  }
   
 }
